@@ -1,0 +1,30 @@
+{
+  "name": "ts-component-published",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "clean": "rm -Rf dist",
+    "build": "npm run clean && tsc --skipLibCheck -p ."
+  },
+  "keywords": [],
+  "author": "reginaldoMorais <reginaldo.cmorais@gmail.com>",
+  "repository": "https://github.com/reginaldoMorais/ts-component-published.git",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.6.0",
+    "styled-components": "^4.3.2",
+    "typescript": "^3.5.3"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.8.5",
+    "@types/styled-components": "^4.1.18"
+  },
+  "peerDependencies": {
+    "react": "16.x",
+    "react-dom": "16.x"
+  }
+}
