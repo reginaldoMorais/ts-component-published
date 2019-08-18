@@ -1,7 +1,7 @@
 {
   "name": "ts-component-published",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.0.2",
+  "description": "Test of creating React library with Typescript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
